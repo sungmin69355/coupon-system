@@ -31,7 +31,7 @@ class ApplyServiceTest {
 
     @Test
     public void 여러명요청() throws InterruptedException {
-        int threadCount = 100;
+        int threadCount = 1000;
         ExecutorService executorService = Executors.newFixedThreadPool(32);
         CountDownLatch countDownLatch = new CountDownLatch(threadCount);
 

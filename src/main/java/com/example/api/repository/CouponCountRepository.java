@@ -17,6 +17,6 @@ public class CouponCountRepository {
     public Long increment() {
         return redisTemplate
                 .opsForValue()
-                .increment("coupon_count");
+                .increment("coupon_count1");
     }
 }
